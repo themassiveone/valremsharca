@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tick\Tick.csproj" />
+    <ProjectReference Include="..\ServiceIdentity\ServiceIdentity.csproj" />
+    <ProjectReference Include="..\Requesting\Requesting.csproj" />
+    <ProjectReference Include="..\Proxying\Proxying.csproj" />
+    <ProjectReference Include="..\Intersharding\Intersharding.csproj" />
+    <ProjectReference Include="..\HttpWebClient\HttpWebClient.csproj" />
+    <ProjectReference Include="..\DynamicMagicAmplifier\DynamicMagicAmplifier.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
